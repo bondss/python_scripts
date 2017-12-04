@@ -11,11 +11,11 @@ def super_fibonacci(n, m):
     # otherwise calculate
     else:
         # initializing variable for sum
-        sum = 0
+        summ = 0
         # adding m previous numbers of sequence, using recursion
         for i in range(1, m+1):
             previous = super_fibonacci(n-i, m)
-            sum = sum + previous
+            summ = summ + previous
         # return sum as last n-element value
         return sum
 
